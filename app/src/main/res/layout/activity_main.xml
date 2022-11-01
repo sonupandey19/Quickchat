@@ -7,6 +7,66 @@
     android:layout_height="match_parent"
     android:background="@color/primary_color"
     tools:context=".MainActivity">
+    
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <ImageView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:background="@drawable/logo_splash"/>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quick Chat"
+            android:gravity="center"
+            android:textSize="@dimen/_25sdp"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/spartan_bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chat with your favourite person and A cup of Tea."
+            android:gravity="center"
+            android:textSize="@dimen/_17sdp"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/spartan_thin"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="From"
+            android:textColor="@color/white"
+            android:fontFamily="@font/spartan_thin"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sonu Pandey"
+            android:textColor="@color/white"
+            android:fontFamily="@font/spartan_regular"
+            android:gravity="center"/>
+
+    </LinearLayout>
 
 
 
